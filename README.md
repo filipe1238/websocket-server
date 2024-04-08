@@ -1,2 +1,9 @@
 # websocket-server
-inicialização do server node server.js
+Grupo: 
+CAIQUE REBOUÇAS; 
+FILIPE ASSUNÇÃO; 
+TIAGO FRANZONI; 
+RAFAEL LUCAS; 
+RAFAEL DA MOTTA; 
+RAFAEL SILVEIRA;
+FÁBIO HUMBERTO DE CARVALHO,
