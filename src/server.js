@@ -30,6 +30,12 @@ io.on("connection", (socket) => {
         io.emit("connStatus", r.data)
     ).catch(e => console.log(e))
 
+    socket.on("load surveys", (msg) => {
+        axios.get('https://us-central1-serveless-survey-api.cloudfunctions.net/api/survey').then(r =>
+            io.emit("load surveys", r.data)
+        ).catch(e => console.log(e));
+    });
+
     socket.on("disconnect", () => {
         io.emit("connStatus", "user n° " + userNumber + " disconnected !");
     });
